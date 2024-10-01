@@ -4,7 +4,7 @@ namespace CleanCode_CodeStyle6
 {
     internal class Programm
     {
-        public static void CreateObject()
+        public static void CreateObject() 
         {
             //Создание объекта на карте
         }
