@@ -4,7 +4,7 @@ namespace CleanCode_CodeStyle6
 {
     internal class Programm
     {
-        public static void CreateNewObject()
+        public static void CreateObject()
         {
             //Создание объекта на карте
         }
@@ -14,7 +14,7 @@ namespace CleanCode_CodeStyle6
             _chance = Random.Range(0, 100);
         }
 
-        public static int GetCalculatedSalary(int hoursWorked)
+        public static int CalculateSalary(int hoursWorked)
         {
             return _hourlyRate * hoursWorked;
         }
